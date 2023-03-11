@@ -21,6 +21,6 @@ npm run build
 cd to the server folder
 ```
 npm install
-npm run serve
+npm run start 
 ```
 the symlink should link the UI build folder to the statically-hosted folder in the server
