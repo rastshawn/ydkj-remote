@@ -13,11 +13,14 @@ export NODE_OPTIONS=--openssl-legacy-provider
 BUILDING:
 
 cd to the ui folder
+```
 npm install
 npm run build
+```
 
 cd to the server folder
+```
 npm install
 npm run serve
-
+```
 the symlink should link the UI build folder to the statically-hosted folder in the server
